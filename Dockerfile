@@ -1,8 +1,8 @@
 FROM node
 
 # FROM .env IF USE CLOUDBUILD
-ENV DB_URI=mongodb+srv://appstoremaster:MongoDB@storeapp-qatcj.mongodb.net/StoreApp?retryWrites=true&w=majority
-ENV JWT_KEY=Sup3rS3cr3tK3y
+ENV DB_URI=
+ENV JWT_KEY=
 # ENV PORT=${PORT}
 # ENV PUBLIC_PORT=${PUBLIC_PORT}
 
